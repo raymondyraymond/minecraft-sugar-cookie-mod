@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cookie",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "sugarcookie:sugar_cookie",
+    "count": 1
+  }
+}

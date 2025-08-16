@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "sugarcookie",
+	"version": "${version}",
+	"name": "Sugar Cookie Mod",
+	"description": "Adds a sugar cookie that gives Jump Boost III for 60 seconds when consumed.",
+	"authors": [
+		"Raymond Hooper"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sugarcookie/textures/item/sugar_cookie.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.raymondhooper.sugarcookie.SugarCookieMod"
+		]
+	},
+	"mixins": [
+		"sugarcookie.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
